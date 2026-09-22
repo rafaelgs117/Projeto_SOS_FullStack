@@ -55,18 +55,6 @@ npm test
 
 > Observação: o botão SOS é uma simulação de front-end. Ele não envia mensagens reais nem acessa localização real.
 
-
-## Aula 05 — conferência dos requisitos
-
-- **Axios + GET + useState + useEffect + map:** `react-app/src/pages/Home.jsx`
-- **Next.js + Tailwind:** `next-app/app/page.jsx`
-- **Responsividade `sm/md/lg`:** `next-app/app/page.jsx`
-- **Teste 1:** `react-app/src/test/Card.test.jsx`
-- **Teste 2:** `react-app/src/test/SosButton.test.jsx`
-- **Configuração de testes:** `react-app/src/test/setup.js` usa `@testing-library/jest-dom/vitest`
-- **Deploy React/Vite:** `react-app/vercel.json` + instruções em `react-app/README.md`
-- **Deploy Next.js:** instruções em `next-app/README.md`
-
 ### Deploy
 
 São dois projetos independentes na Vercel: um apontando para `react-app` e outro para `next-app`. Os links públicos são gerados pela Vercel depois que cada projeto for publicado.
