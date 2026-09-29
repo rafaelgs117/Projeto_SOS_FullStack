@@ -108,10 +108,10 @@ Projeto_SOS_FullStack/
 ## Front-end publicado
 
 ## react no vercel
-https://react-app-gray-rho.vercel.app/
+https://react-app-hnxv.vercel.app/
 
 ## next no vercel
-https://projeto-sos-full-stack.vercel.app/
+https://next-app-two-pink-22.vercel.app/
 
 ## Back-end
 
