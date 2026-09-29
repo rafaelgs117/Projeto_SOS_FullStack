@@ -58,3 +58,84 @@ npm test
 ### Deploy
 
 São dois projetos independentes na Vercel: um apontando para `react-app` e outro para `next-app`. Os links públicos são gerados pela Vercel depois que cada projeto for publicado.
+
+
+## Como executar
+
+-Deve ser aberto cada um em um novo terminal, react, next e a parte do backend tambem.
+
+### React
+```bash
+cd react-app
+npm install
+npm run dev
+```
+
+### Next.js
+Em outro terminal:
+```bash
+cd next-app
+npm install
+npm run dev
+```
+
+### Testes
+```bash
+cd react-app
+npm test
+```
+
+> Observação: o botão SOS é uma simulação de front-end. Ele não envia mensagens reais nem acessa localização real.
+
+### Deploy
+
+São dois projetos independentes na Vercel: um apontando para `react-app` e outro para `next-app`. Os links públicos são gerados pela Vercel depois que cada projeto for publicado.
+
+## Estrutura
+
+```text
+Projeto_SOS_FullStack/
+├── frontend/
+│   ├── react-app/
+│   └── next-app/
+├── backend/
+│   ├── package.json
+│   ├── server.js
+│   └── README.md
+└── README.md
+```
+
+## Front-end publicado
+
+## react no vercel
+https://react-app-gray-rho.vercel.app/
+
+## next no vercel
+https://projeto-sos-full-stack.vercel.app/
+
+## Back-end
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+API local: http://localhost:3000
+
+## Endpoints
+
+`GET /api/contatos`  
+`GET /api/contatos/:id`  
+`POST /api/contatos`  
+`GET /api/usuarios`  
+`GET /api/usuarios/:id`  
+`GET /api/sos`  
+`GET /api/sos/:id`  
+`POST /api/sos`
+
+## Integrantes (nome e repositorio github)
+
+- Rafael Gonçalves da SIlva — GitHub: `https://github.com/rafaelgs117?tab=repositories`
+- Maria Janaina — GitHub: ``
+
