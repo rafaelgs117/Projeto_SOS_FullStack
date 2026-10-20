@@ -1,18 +1,9 @@
 {
   "name": "sos-emergencia-backend",
-  "version": "2.0.0",
-  "description": "API do projeto integrador SOS Emergência (Aula 09 - v2)",
+  "version": "3.0.0",
+  "description": "API SOS Emergência integrada ao PostgreSQL - Aula 11",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-  "dependencies": {
-    "dotenv": "^17.0.0",
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
-  }
+  "scripts": { "start": "node server.js", "dev": "nodemon server.js", "check": "node --check server.js && node --check db.js" },
+  "dependencies": { "cors": "^2.8.5", "dotenv": "^17.2.2", "express": "^5.1.0", "pg": "^8.16.3" },
+  "devDependencies": { "nodemon": "^3.1.10" }
 }
-
